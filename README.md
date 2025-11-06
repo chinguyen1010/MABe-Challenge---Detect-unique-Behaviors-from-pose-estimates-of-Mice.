@@ -58,4 +58,4 @@ Jennifer J. Sun, Markus Marks, Sam Golden, Talmo Pereira, Ann Kennedy, Sohier Da
 
 
 
-Link: https://www.kaggle.com/competitions/MABe-mouse-behavior-detection
+Link to challenge: https://www.kaggle.com/competitions/MABe-mouse-behavior-detection

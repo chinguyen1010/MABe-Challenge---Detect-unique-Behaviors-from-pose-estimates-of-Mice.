@@ -14,34 +14,46 @@ This competition challenges you to build models to identify over 30 different so
 
 Your work will help scientists automate behavior analysis and better understand animal social structures. These models may be deployed across numerous labs, in neuroscience, computational biology, ethology, and ecology, to create a foundation for future ML and behavior research.
 
-Evaluation
+Evaluation:
+
 This competition uses an F-Score variant as the metric. The F scores are averaged across each lab, each video, and score only the specific behaviors and mice that were annotated for a specific video. You may wish to review the full implementation here.
 
-Submission File
+Submission File:
+
 You must create a row in the submission file for each discrete action. The file should contain a header and have the following format:
 
 row_id,video_id,agent_id,target_id,action,start_frame,stop_frame
+
 0,101686631,mouse1,mouse2,sniff,0,10
+
 1,101686631,mouse2,mouse1,sniff,15,16
+
 2,101686631,mouse1,mouse2,sniff,30,40
+
 3,101686631,mouse2,mouse1,sniff,55,65
 
 
 
 Previous Efforts and Benchmarks
+
 This competition builds on the Multi-Agent Behavior (MABe) Workshop and Competitions in 2021 and 2022, which focus on supervised and representation learning using data from multiple labs and organisms.
 
 Read the related papers on the 2021 and 2022 competitions:
 
 CalMS21 at NeurIPS (https://arxiv.org/pdf/2104.02710.pdf)
+
 MABe22 at ICML 2023 (https://arxiv.org/pdf/2207.10553.pdf)
+
 Read about another, earlier mouse behavior recognition dataset:
 
 CRIM13 at CVPR(doi: 10.1109/CVPR.2012.6247817)
+
+
 Note: for your convenience, we provide all pose and annotation files from CalMS21, MABe22, and CRIM13 as additional data in the competition training set.
 
 
-Citation
+Citation:
+
 Jennifer J. Sun, Markus Marks, Sam Golden, Talmo Pereira, Ann Kennedy, Sohier Dane, Addison Howard, and Ashley Chow. MABe Challenge - Social Action Recognition in Mice. https://kaggle.com/competitions/MABe-mouse-behavior-detection, 2025. Kaggle.
 
 
